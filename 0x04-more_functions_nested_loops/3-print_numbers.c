@@ -5,9 +5,11 @@
  * followed by a new line.
  * Return: Always 0
  */
-int main(void)
+void print_numbers(void)
 {
-	print_numbers();
+	int i = '0';
 
-	return (0);
+	for (; i <= '9'; i++)
+		_putchar (i);
+	_putchar ('\n');
 }
